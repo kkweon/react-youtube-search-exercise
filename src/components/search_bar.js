@@ -37,19 +37,17 @@ export default class SearchBar extends Component {
   render() {
     return (
       <div className="col-md-12" style={{ width: "100%" }}>
-        <form action="">
-          <FormGroup bsSize="large">
-            <FormControl
-              autoFocus
-              style={{ paddingLeft: "1rem" }}
-              placeholder="Type search term"
-              value={this.state.term}
-              onChange={this.onInputChange}
-              onKeyDown={this.onKeyDown}
-            />
-            <FormControl.Feedback />
-          </FormGroup>
-        </form>
+        <FormGroup bsSize="large">
+          <FormControl
+            autoFocus
+            style={{ paddingLeft: "1rem" }}
+            placeholder="Type search term"
+            value={this.state.term}
+            onChange={this.onInputChange}
+            onKeyDown={this.onKeyDown}
+          />
+          <FormControl.Feedback />
+        </FormGroup>
       </div>
     );
   }
