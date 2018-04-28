@@ -1,5 +1,8 @@
 * Youtube Search Application in React
 
+  #+ATTR_HTML: title="Greenkeeper badge"
+  [[https://greenkeeper.io/][file:https://badges.greenkeeper.io/kkweon/youtube-search-react.svg]]
+
 
 ** Get started
 
